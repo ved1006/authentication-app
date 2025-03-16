@@ -1,0 +1,205 @@
+body {
+  background-color: #f7f7f7; 
+  color: #333; 
+  font-family: 'Roboto', sans-serif; 
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; 
+  color: #222; 
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav {background-color:black;width:65%;border-radius:1vw;}
+.nav a{color:white;text-decoration:none;margin:3vw;}
+
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+input, button {
+  width: 100%;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus, button:focus {
+  outline: none;
+  border-color: #0095f6; 
+}
+
+button {
+  background-color: #0095f6;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bb5; 
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.link {
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+}
+
+.link a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+.home-container {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.home-container button {
+  width: 200px;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: #0095f6;
+  color: white;
+  border: none;
+}
+
+.home-container button:hover {
+  background-color: #007bb5; 
+}
+
+.forgot-password-container, .change-password-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+.forgot-password-container h2, .change-password-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.forgot-password-container input, .change-password-container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.forgot-password-container button, .change-password-container button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  padding: 1rem 0;
+  width: 100%;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.forgot-password-container button:hover, .change-password-container button:hover {
+  background-color: #007bb5; 
+}
+
+.forgot-password-container p, .change-password-container p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.forgot-password-container .link a, .change-password-container .link a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgot-password-container .link a:hover, .change-password-container .link a:hover {
+  text-decoration: underline;
+}
+
+.about-container {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: linear-gradient(135deg, #80d0ff, #0095f6); /* Elegant gradient background */
+  color: white;
+}
+
+.about-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.about-container .highlight {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.about-container button {
+  padding: 1rem 2rem;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.about-container button:hover {
+  background-color: #007bb5;
+  transform: translateY(-2px); 
+}
